@@ -3,7 +3,7 @@ function withSVGComponent(baseConfig = {}) {
     webpack(config, options) {
       config.module.rules.push({
         test: /\.svg$/,
-        use: ['@svgr/webpack', 'url-loader']
+        use: ['@svgr/webpack', 'file-loader']
       });
 
       if (typeof baseConfig.webpack === "function") {

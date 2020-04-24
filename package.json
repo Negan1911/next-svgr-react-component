@@ -1,6 +1,6 @@
 {
   "name": "next-svgr-react-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Achieve CRA behavour onto Nextjs",
   "main": "index.js",
   "repository": "git@github.com:Negan1911/next-svgr-react-component.git",
@@ -9,6 +9,6 @@
   "private": false,
   "dependencies": {
     "@svgr/webpack": "^5.3.1",
-    "url-loader": "^4.1.0"
+    "file-loader": "^6.0.0"
   }
 }
