@@ -1,6 +1,6 @@
 {
   "name": "next-svgr-react-component",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Achieve CRA behavour onto Nextjs",
   "main": "index.js",
   "repository": "git@github.com:Negan1911/next-svgr-react-component.git",
